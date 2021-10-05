@@ -5,8 +5,8 @@ import './Header.css';
 
 export const Header = () => {
     return (
-        <nav id="header">
-            <ul>
+        <nav id="header" className="shadow-bottom">
+            <ul className="flex-1">
                 <li>
                     <Link to="/">Home</Link>
                 </li>
@@ -17,7 +17,7 @@ export const Header = () => {
                     <Link to="/hello-world">Does not exist page</Link>
                 </li>
             </ul>
-            <ul>
+            <ul className="flex-none">
                 {appSettings.gitHub && (
                     <li>
                         <a
