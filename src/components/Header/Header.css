@@ -1,17 +1,11 @@
 #header {
-    padding: 0.6rem 2rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    @apply py-2 px-8 flex flex-row items-center justify-between;
 }
 
 #header ul {
-    padding: 0;
-    margin: 0;
+    @apply p-0 m-0;
 }
+
 #header ul > li {
-    list-style-type: none;
-    display: inline;
-    margin: 0 1rem;
+    @apply mx-4 my-0 inline list-none;
 }

@@ -9,7 +9,7 @@ export const PageContainer = ({
     children,
 }: React.PropsWithChildren<PageContainerProps>) => {
     return (
-        <div id={id} className="page-container">
+        <div id={id} className="container page-container">
             {children}
         </div>
     );
