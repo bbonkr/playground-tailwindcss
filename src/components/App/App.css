@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
     padding: 0;
@@ -5,5 +9,5 @@ body {
 }
 
 .page-container {
-    padding: 0 40px;
+    @apply px-6 py-3;
 }
